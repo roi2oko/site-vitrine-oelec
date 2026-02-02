@@ -73,9 +73,9 @@ p {
 /* Hero section */
 .hero {
     position: relative;
-    background: url('assets/hero.png') center/cover no-repeat;
+    background: url('hero.png') center/cover no-repeat;
     height: 60vh;
-    display: flex;
+    display
     align-items: center;
     justify-content: center;
     text-align: center;
