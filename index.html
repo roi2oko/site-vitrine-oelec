@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Entreprise d'électricité proposant des services d'installation, de rénovation et de maintenance à Genas et ses environs.">
+    <title>Votre Électricien à Genas</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-YE9Myc8fcQz2P6vjXn2NHbFxg4b6q4i+x8LBPdvSRSJgk1y1Afd5qg9pYpH98uAQObcUipwbN5IbfE2okG5PA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Site Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="hero">
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <h1>Entreprise d'Électricité</h1>
+            <p>Installation • Rénovation • Dépannage • Maintenance</p>
+            <a href="#contact" class="btn">Contactez‑nous</a>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- About Section -->
+        <section id="about" class="section about">
+            <h2>À propos de nous</h2>
+            <p>
+                Basée à Genas, notre entreprise d'électricité met son expertise au service des particuliers et des professionnels.
+                Nous réalisons des installations électriques neuves, des travaux de rénovation, ainsi que des interventions de dépannage et de maintenance.
+                Notre équipe qualifiée se déplace rapidement pour répondre à toutes vos demandes en respectant les normes en vigueur et votre budget.
+            </p>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="section services">
+            <h2>Nos services</h2>
+            <div class="service-items">
+                <div class="service-item">
+                    <i class="fa-solid fa-plug-circle-bolt"></i>
+                    <h3>Installation neuve</h3>
+                    <p>
+                        Conception et réalisation d'installations électriques pour logements, bureaux et locaux commerciaux. Respect des normes NF C 15‑100.
+                    </p>
+                </div>
+                <div class="service-item">
+                    <i class="fa-solid fa-house-crack"></i>
+                    <h3>Rénovation</h3>
+                    <p>
+                        Mise aux normes et rénovation complète de votre réseau électrique lors de travaux de rénovation ou d'agrandissement.
+                    </p>
+                </div>
+                <div class="service-item">
+                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                    <h3>Dépannage</h3>
+                    <p>
+                        Intervention rapide pour tout type de panne : coupure de courant, court‑circuit, disjoncteur défaillant… Nous assurons votre sécurité.
+                    </p>
+                </div>
+                <div class="service-item">
+                    <i class="fa-solid fa-handshake"></i>
+                    <h3>Maintenance</h3>
+                    <p>
+                        Contrats de maintenance et entretien préventif pour assurer la fiabilité de vos installations électriques sur le long terme.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact">
+            <h2>Contactez‑nous</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h3>Coordonnées</h3>
+                    <p><i class="fa-solid fa-location-dot"></i> Genas, Rhône‑Alpes, France</p>
+                    <p><i class="fa-solid fa-phone"></i> 04 12 34 56 78</p>
+                    <p><i class="fa-solid fa-envelope"></i> <a href="mailto:e.lamure1112@gmail.com">e.lamure1112@gmail.com</a></p>
+                    <p>
+                        N'hésitez pas à nous contacter pour obtenir un devis gratuit ou des informations complémentaires. Nous sommes disponibles du lundi au vendredi de 8h à 18h.
+                    </p>
+                </div>
+                <div class="contact-form">
+                    <h3>Formulaire de contact</h3>
+                    <!-- Use FormSubmit to send form submissions directly to the provided email address -->
+                    <form action="https://formsubmit.co/e.lamure1112@gmail.com" method="POST">
+                        <!-- redirect to thankyou page after submission -->
+                        <input type="hidden" name="_next" value="thankyou.html">
+                        <input type="hidden" name="_subject" value="Nouveau message depuis le site">
+                        <div class="form-group">
+                            <label for="name">Nom*</label>
+                            <input type="text" id="name" name="name" placeholder="Votre nom" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email*</label>
+                            <input type="email" id="email" name="email" placeholder="Votre email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Téléphone</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Votre numéro de téléphone">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message*</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Votre message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Envoyer</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Entreprise d'Électricité. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
