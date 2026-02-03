@@ -224,9 +224,12 @@ footer {
     }
     .contact-wrapper {
         flex-direction: column;
+        }
+
    
         /* Navbar responsive tweaks: stack items vertically on small screens */
     .navbar ul {
+}
         flex-direction: column;
         align-items: center;
     }
@@ -239,7 +242,6 @@ footer {
     }
 }
 }
-
 
     /* Gallery section */
 .gallery {
