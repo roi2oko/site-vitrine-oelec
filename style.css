@@ -224,8 +224,22 @@ footer {
     }
     .contact-wrapper {
         flex-direction: column;
+   
+        /* Navbar responsive tweaks: stack items vertically on small screens */
+    .navbar ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar li {
+        margin: 0.5rem 0;
+    }
+    .navbar a {
+        white-space: nowrap;
+        font-size: 0.9rem;
     }
 }
+}
+
 
     /* Gallery section */
 .gallery {
